@@ -4,6 +4,17 @@ This repository contains the source code for the homepage of the student
 council for mechanical engineering at the Otto von Guericke University 
 Magdeburg.
 
+## Prerequisites
+
+1. Ensure [Sass](https://sass-lang.com/install/) is installed.
+2. Download [Bulma v0.9.4](https://github.com/jgthms/bulma/releases/tag/0.9.4). 
+3. Place the extracted folder under `farafmb/static/`.
+4. Compile `.css` from `.sass`
+
+```commandline
+sass farafmb/static/bulma/bulma.sass farafmb/static/css/bulma.css
+```
+
 ## Installation
 
 The following steps describe how to set up a local development environment.

@@ -1,7 +1,5 @@
-{% load static wagtailcore_tags wagtailuserbar %}
-
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>{% load static wagtailcore_tags wagtailuserbar %}
+<html lang="de">
     <head>
         <meta charset="utf-8" />
         <title>
@@ -24,6 +22,7 @@
         {% endif %}
 
         {# Global stylesheets #}
+        <link rel="stylesheet" type="text/css" href="{% static 'css/bulma.css' %}">
         <link rel="stylesheet" type="text/css" href="{% static 'css/farafmb.css' %}">
 
         {% block extra_css %}

@@ -1,3 +1,7 @@
+# Bulma
+farafmb/static/bulma/
+farafmb/static/css/bulma.*
+
 # Django
 db.sqlite3
 
