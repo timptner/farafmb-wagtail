@@ -8,6 +8,10 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Added
+
+- Bulma as CSS Framework.
+
 ## [0.1.0] - 2023-09-22
 
 ### Added
